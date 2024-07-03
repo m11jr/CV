@@ -511,7 +511,7 @@ height: 200px;
 
 
 
-  border-spacing: 1em;
+  border-spacing: 0.5em;
 
 
     border-radius: 12px;
@@ -525,7 +525,7 @@ height: 200px;
   }
 
   li{
-    border: 2px solid white
+
 
   }
   #WhatText{
@@ -541,7 +541,7 @@ height: 200px;
       margin-top: 5px;
       }
 .Social-Media li{
-
+border: 2px solid white
 }
 
 
