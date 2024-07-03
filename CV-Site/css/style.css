@@ -3,12 +3,13 @@
     box-sizing: border-box;
 }
 body{
-background-color:#a33d0b;
+background-color:#9fd3c7;
+background-image: url(../imgsource/Topbarsec2.png);
 margin: 0px;
 
 }
 h1 , h3{
-    color: #eeeeee;
+    color: #142d4c;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*h2 {
@@ -59,53 +60,53 @@ text-decoration: none;
 hr{
     width: 10%;
     border-style: dotted none none;
-    border-color: #ff894c;
-    border-width: 5px;
+    border-color: #ececec;
+    border-width: 8px;
 }
 hr:hover{
     border-color: #ff894c;
 }
 .navbar-header{
 
-    
+
     background-color:#f07556;
-    
-    
-    
-    
+
+
+
+
 }
 
 header{
-    
-    background-color: #222831;
+
+    background-color: #385170;
     justify-content:center;
     width: 100%;
 
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
-   
-    
- 
+
+
+
+
 
 }
 
 #navbar{
-    
+
     display: flex;
-    
-   
-    
-   
+
+
+
+
     border-radius: 24px;
 
- 
+
 }
 #general{
-text-align: center;    
+text-align: center;
 display: flex;
     margin: 10 auto 0 auto;
-    
+
 
 
 }
@@ -132,37 +133,40 @@ ul{
 
 }
 .CenteredBar:hover , .CenteredBar:focus {
-    
-    background-color:#f07556;
+
+
     border-radius: 4px;
-   
+
 }
 
 .topdivs{
 
     color: #eeeeee;
-    
+
 }
 
 .topbar-sec{
-    background-image: url(../imgsource/Topbarsec.png);
+  background-image: url(../imgsource/bck3.png);
+    width: 100%;
+    background-repeat:repeat-x;
+    background-repeat: repeat-y;:
 margin-top: 20px;
-height: 400px;
+height: 350px;
 border-radius: 12px;
 display: flex;
-    align-items:center; 
+    align-items:center;
         justify-content:center;
-        
+
 
     }
 
 #Alinurzada{
-    color: #eeeeee;
+    color: #142d4c;
     text-align: center;
     font-family: "Playwrite US Trad";
     font-size: 3.5em;
-    
-    
+
+
 }
 .altAlinurzada{
 font-size: 0.35em;
@@ -170,29 +174,31 @@ font-family: 'Courier New', Courier, monospace;
 }
 .Information{
     border-radius: 12px;
-    background-color: #f07556;
+    background-color: #385170;
     color: white;
     height: 40px;
     width: 150px;
     border: 1px solid white;
+    margin-top: 30px;
 }
 
 .Information:hover , .Information:focus{
-    
-    color: #222831;
+
+    color: #ececec;
     backdrop-filter: blur;
-    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
-    border: 2px solid rgba(227, 228, 237, 0.18);
+
+    border: 1px solid rgba(227, 228, 237, 0.18);
 }
 
 
 .middlebar-sec{
-    height: 250px;
-    
-    
+    height: 310px;
+    text-align: center;
+
+
     border: 2px solid #222831;
     border-radius: 12px;
-    margin: 10px 70px 0px 70px;
+    margin: 10px 50px 0px 50px;
 }
 
 .middlebar-sec h3{
@@ -203,15 +209,15 @@ font-family: 'Courier New', Courier, monospace;
 
 .Social-Media{
     padding: 0 10px 10px 10px;
-    
+
 }
 
 .Instagram{
     text-decoration: none;
 }
 .Instagram:hover , .Instagram:focus{
-    
-  
+
+
 }
 
 #InstaText{
@@ -230,8 +236,8 @@ font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
 }
 .Instagram:hover , .Instagram:focus{
-    
-  
+
+
 }
 
 #LinkeText{
@@ -255,8 +261,8 @@ font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
 }
 .Instagram:hover , .Instagram:focus{
-    
-  
+
+
 }
 
 #WhatText{
@@ -273,11 +279,11 @@ font-family: 'Courier New', Courier, monospace;
 
 .Github{
     text-decoration: none;
-    
+
 }
 .Instagram:hover , .Instagram:focus{
-    
-  
+
+
 }
 
 #GitText{
@@ -292,13 +298,96 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 .Social{
+  margin-top:30px;
+
     justify-content: center;
     display: flex;
-    
+
 }
 
+.Skills{
+
+
+  background-color: #142d4c;
+  background-image: url(../imgsource/topbarsecdif2.png);
+
+}
+
+#mySkils{
+  color: #ececec;
+  font-family: "Playwrite NG Modern";
+  text-align: center;
+  font-size: 1.5em
+}
+
+#SkillTable{
+  width: 60%;
+  justify-content: center;
+  display: flex;
 
 
 
 
+border-spacing: 2em;
 
+
+  border-radius: 12px;
+}
+
+.Developer p{
+  color: #ececec;
+  }
+
+  .Rows .Developer {
+    colspan="2";
+  }
+.Dev{
+  justify-content: center;
+display: flex;
+
+
+}
+
+.img{
+width: 170px;
+}
+
+.Footer{
+  background-color: #233142;
+  height: 85px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#backtop{
+  text-decoration: none;
+  color: #9fd3c7;
+margin-bottom: -20px;
+}
+
+#backtop:hover , #backtop:focus{
+  color: white;
+  background-color: white;
+
+}
+
+.Contact{
+    border-radius: 12px;
+    background-color: #385170;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border: 1px solid white;
+
+
+}
+
+.Contact:hover , .Contact:focus{
+
+    color: #ececec;
+    backdrop-filter: blur;
+
+    border: 1px solid rgba(227, 228, 237, 0.18);
+}
