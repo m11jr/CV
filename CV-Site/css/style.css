@@ -196,7 +196,7 @@ font-family: 'Courier New', Courier, monospace;
     text-align: center;
 
 
-    border: 2px solid #222831;
+
     border-radius: 12px;
     margin: 10px 50px 0px 50px;
 }
@@ -391,3 +391,58 @@ margin-bottom: -20px;
 
     border: 1px solid rgba(227, 228, 237, 0.18);
 }
+
+
+@media (min-width:768px) {
+  .middlebar-sec{
+      border: 2px solid #222831;
+  }
+}
+
+@media (max-width:767px){
+  #InstaLogo{
+    width: 23%;
+
+  }
+  #LinkeLogo{
+    width: 23%;
+  }
+  #WhatLogo{
+    width: 23%;
+  }
+  #GitLogo{
+    width: 23%;
+  }
+
+  .Social-Media{
+      display: flex;
+      gap: 10px;
+  }
+
+  .middlebar-sec{
+height: 200px;
+      border-radius: 12px;
+      margin: 10px 50px 0px 50px;
+  }
+  #SkillTable{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+
+
+
+  border-spacing: 1.5em;
+
+
+    border-radius: 12px;
+  }
+
+  .topbar-sec{
+    background-image: url(../imgsource/topbarseclittle2.png);
+  }
+
+
+
+    }
