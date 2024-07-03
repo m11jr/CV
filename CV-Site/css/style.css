@@ -321,7 +321,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 #SkillTable{
-  width: 100%;
+  width: 60%;
   justify-content: center;
   display: flex;
 
