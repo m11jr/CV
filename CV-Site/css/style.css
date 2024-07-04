@@ -5,11 +5,12 @@
 body{
 background-color:#9fd3c7;
 background-image: url(../imgsource/Topbarsec2.png);
+
 margin: 0px;
 
 }
 h1 , h3{
-    color: #142d4c;
+    color: #385170;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*h2 {
@@ -19,7 +20,7 @@ h1 , h3{
     */
 
 .altinfo{
-    color: #222831;
+    color:#142d4c;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #firelogo{
@@ -36,17 +37,22 @@ h1 , h3{
 
 
 td, th{
-    color: #222831;
+    color: #142d4c;
 }
 th{
     text-align: left;
 }
 li{
-    color: #eeeeee;
+    color: #ececec;
 }
 p{
     color: #222831;
 }
+
+#Skills li{
+  color: #142d4c;
+}
+
 #briefinfo{
     color: #eeeeee;
 }
@@ -60,7 +66,7 @@ text-decoration: none;
 hr{
     width: 10%;
     border-style: dotted none none;
-    border-color: #ececec;
+    border-color: #142d4c;
     border-width: 8px;
 }
 hr:hover{
@@ -147,7 +153,10 @@ ul{
 
 .topbar-sec{
   background-image: url(../imgsource/bck3.png);
-    width: 100%;
+
+  background-size: cover;
+  background-position: center;
+
     background-repeat:repeat-x;
     background-repeat: repeat-y;:
 margin-top: 20px;
@@ -393,7 +402,15 @@ margin-bottom: -20px;
 }
 
 
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width:991px) {
+
+   .topbar-sec{
+     background-image: url(../imgsource/topbar9911.png);
+     background-size: cover;
+
+     background-position: center;
+
+   }
   .middlebar-sec{
       border: 2px solid #222831;
       #InstaText{
@@ -478,6 +495,16 @@ margin-bottom: -20px;
 }
 
 @media (max-width:767px){
+
+  .topbar-sec{
+    background-image: url(../imgsource/topbar768.png);
+    background-size: cover;
+
+    background-position: center;
+
+  }
+
+
   #InstaLogo{
     width: 23%;
 
@@ -517,9 +544,7 @@ height: 200px;
     border-radius: 12px;
   }
 
-  .topbar-sec{
-    background-image: url(../imgsource/topbarseclittle2.png);
-  }
+
   .Footer{
     height: 95px;
   }
@@ -528,9 +553,18 @@ height: 200px;
 
 
   }
+
+  #LinkeText{
+    margin-left: 10%;
+  }
+
+  #InstaText{
+    margin-left: 10%;
+  }
   #WhatText{
       width: 75px;
       margin-top: 5px;
+      margin-left: 10%;
 }
 
 
@@ -539,9 +573,15 @@ height: 200px;
   #GitText{
       width: 75px;
       margin-top: 5px;
+      margin-left: 9%;
       }
+
+#GitLogo{
+  text-align: center;
+}
+
 .Social-Media li{
-border: 2px solid white
+text-decoration: underline solid black;
 }
 
 
